@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../lyricist/1.8.0/lyricist-1.8.0.module",
+    "group": "cafe.adriel.lyricist",
+    "module": "lyricist",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "cafe.adriel.lyricist",
+          "module": "lyricist-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lyricist-compose-iosArm64Main.klib",
+          "url": "lyricist-iosarm64-1.8.0.klib",
+          "size": 8713,
+          "sha512": "c29d293e255d877b510aab25db543e60246baea38400b38f8daf71ef8a88f5cabf037414f6240dc87de14ff52bbd2f260d383cfa01c2d75f105e03f47ded4a0f",
+          "sha256": "4c21b07bfeec66a5f0304bb50b53a5e0d86f0c09f1c0cb98c15e3d308103d2af",
+          "sha1": "1082200103b96709484292552fb5a004f925173e",
+          "md5": "6987236a8e33896a20ce7a3d0e0cf4d4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "lyricist-compose-iosarm64-sources.jar",
+          "url": "lyricist-iosarm64-1.8.0-sources.jar",
+          "size": 1287,
+          "sha512": "c1c392ce5bb527a33afcd2714b96b00f2de077c6422497bd2de5793c278cf8c9995f3f5efbc0a9f2c081beefc428a65f8591484943eaf3ac686618da6f0e41e4",
+          "sha256": "7ace8ee1feb973684e4ec4f45867617d3377601706f835ed8da09eb1e61646fa",
+          "sha1": "09c2558b921f28284afd6da984d611a87a0f12fe",
+          "md5": "3ff282de3d4001f4cf850894a6557892"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "cafe.adriel.lyricist",
+          "module": "lyricist-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lyricist-compose.kotlin_resources.zip",
+          "url": "lyricist-iosarm64-1.8.0-kotlin_resources.kotlin_resources.zip",
+          "size": 338,
+          "sha512": "1b7163ee833b115951a8bc7627f43d1e6e1d48fcec11d808438f1b64971ba8c81dbb3d3e2606606803907cf1950699e53bef474f0295536d704a080d6a268d5c",
+          "sha256": "16ca6adac848af7d43c02333de7c13afe0adcdc8d2843cb10019b91c2377a056",
+          "sha1": "293ddf598538d3a4acaa0e77b6e784b70c16205e",
+          "md5": "6b5862c15aca66f10a9b097772574793"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "cafe.adriel.lyricist",
+          "module": "lyricist-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lyricist-compose-iosarm64-metadata.jar",
+          "url": "lyricist-iosarm64-1.8.0-metadata.jar",
+          "size": 261,
+          "sha512": "e47645ca428f97ac08d7d207b5481ec69ce9b1acf2b00bf857914f0f1ce592b0dfc4f251f101c81d6c20604dedd503da47205a9208fe38e181df96aa2e3e8c2d",
+          "sha256": "e7ceece0abdc2cdde419ab9df1cf3b5674992e9b048cedfc851c158ffc11dc1e",
+          "sha1": "fcd45e57e23bb871a5aa68870dc089d4189d0455",
+          "md5": "d67875cfa3508e3e4bbcebe8f180dd5b"
+        }
+      ]
+    }
+  ]
+}

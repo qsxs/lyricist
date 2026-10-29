@@ -1,0 +1,18 @@
+{
+  "androidx.annotation:annotation": "1.9.1",
+  "androidx.arch.core:core-common": "2.2.0",
+  "androidx.collection:collection": "1.5.0",
+  "androidx.compose.runtime:runtime": "1.12.0",
+  "androidx.compose.runtime:runtime-annotation": "1.12.0",
+  "androidx.compose.runtime:runtime-saveable": "1.12.0",
+  "androidx.graphics:graphics-shapes": "1.1.0",
+  "androidx.lifecycle:lifecycle-common": "2.11.0",
+  "androidx.lifecycle:lifecycle-runtime": "2.11.0",
+  "androidx.lifecycle:lifecycle-runtime-compose": "2.11.0",
+  "androidx.lifecycle:lifecycle-viewmodel": "2.11.0",
+  "androidx.lifecycle:lifecycle-viewmodel-compose": "2.11.0",
+  "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.11.0",
+  "androidx.savedstate:savedstate": "1.5.0-alpha01",
+  "androidx.savedstate:savedstate-compose": "1.5.0-alpha01",
+  "org.jetbrains.compose.ui:ui-uikit": "1.12.0-0.1.0-11"
+}

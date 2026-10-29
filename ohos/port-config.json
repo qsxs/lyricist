@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "group": "io.github.qsxs.cpf.lyricist",
+  "upstreamVersion": "1.8.0",
+  "kotlin": "2.4.20-0.1.0-08",
+  "compose": "1.12.0-0.1.0-11",
+  "coroutines": "1.11.0-0.1.0-07",
+  "gradle": "9.5.0",
+  "metadataPolicy": "STANDARD_LOCKED_KGP_METADATA_NO_FALLBACK",
+  "modules": {
+    "lyricist": {
+      "group": "io.github.qsxs.cpf.lyricist",
+      "upstreamVersion": "1.8.0",
+      "sourceCount": 1,
+      "license": "MIT License",
+      "licenseUrl": "https://opensource.org/licenses/MIT",
+      "repository": "https://github.com/adrielcafe/lyricist",
+      "licensePath": "legal/LYRICIST-LICENSE.md",
+      "explicitApi": "Strict"
+    },
+    "lyricist-core": {
+      "group": "io.github.qsxs.cpf.lyricist",
+      "upstreamVersion": "1.8.0",
+      "sourceCount": 1,
+      "license": "MIT License",
+      "licenseUrl": "https://opensource.org/licenses/MIT",
+      "repository": "https://github.com/adrielcafe/lyricist",
+      "licensePath": "legal/LYRICIST-LICENSE.md",
+      "explicitApi": "Strict"
+    }
+  }
+}

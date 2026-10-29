@@ -1,0 +1,26 @@
+plugins {
+    kotlin("multiplatform")
+    id("com.android.library")
+    id("org.jetbrains.compose")
+    id("org.jetbrains.kotlin.plugin.compose")
+    id("com.vanniktech.maven.publish")
+}
+
+android {
+    namespace = "cafe.adriel.lyricist"
+}
+
+kotlinMultiplatform()
+
+kotlin {
+    sourceSets {
+        val commonMain by getting {
+            dependencies {
+                api(project(":lyricist-core"))
+                implementation(libs.coroutines)
+                compileOnly(compose.runtime)
+                compileOnly(compose.ui)
+            }
+        }
+    }
+}

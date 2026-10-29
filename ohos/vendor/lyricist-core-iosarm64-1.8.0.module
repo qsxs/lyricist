@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../lyricist-core/1.8.0/lyricist-core-1.8.0.module",
+    "group": "cafe.adriel.lyricist",
+    "module": "lyricist-core",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lyricist-core-iosArm64Main.klib",
+          "url": "lyricist-core-iosarm64-1.8.0.klib",
+          "size": 10279,
+          "sha512": "c2ad7d09edda5b46a5c38f198132b6234155b32c496de17be76329ed6987ba901687f6a660f53802f0bc20d2bfac1a3de79c1b71c4724e9e75ef00a3959ff864",
+          "sha256": "b0c4f3ccc6b70429e8d506415097b7b8e6f3c0f0efdf57801e56b4f3aa29f2b5",
+          "sha1": "880af9e6fdbf3f66d042bd11baa91d82539063b8",
+          "md5": "f85a0c17999002955e69ab532494c4a4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "lyricist-core-iosarm64-sources.jar",
+          "url": "lyricist-core-iosarm64-1.8.0-sources.jar",
+          "size": 1238,
+          "sha512": "0b1913900ae64dea0f16335ba5f548bc1f61390c849cbcdae98d9b2f29c2608aacd6629b71c756cc892d182b5a2397e779a94cd2eab4e842a4d4999622ad7a40",
+          "sha256": "0ca9071f050457c8e3c164c6824168fc2d8827121879786681e9450035a368d6",
+          "sha1": "669b0bfa3ab3252835330db6e08ad2dd86cddc99",
+          "md5": "4eea925cf54f3f737374850e23420112"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lyricist-core-iosarm64-metadata.jar",
+          "url": "lyricist-core-iosarm64-1.8.0-metadata.jar",
+          "size": 261,
+          "sha512": "681189fb83e5485c6347f09c786bcf233eb0c26afcaaeaa4c8d016631894c28e7b1377792f4976b39ee286f7220c264ee59b4b233ad7e2046850dd90f0bfa0cf",
+          "sha256": "e2b8ee5b6eacfa060eb206c6321d3994f383b298802afaa6a58809c0c144f63c",
+          "sha1": "7adeebc497b8cd9034383ed3e10d99dc9ce50a03",
+          "md5": "2225b5f37c32470513849fcaf696c0af"
+        }
+      ]
+    }
+  ]
+}

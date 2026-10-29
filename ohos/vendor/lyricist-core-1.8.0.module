@@ -1,0 +1,534 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cafe.adriel.lyricist",
+    "module": "lyricist-core",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lyricist-core-metadata.jar",
+          "url": "lyricist-core-1.8.0.jar",
+          "size": 3112,
+          "sha512": "a5ef6ca9615c11417d5300b6d30f2b4bb7b763a510eb2050ea7a34677f71b9a29902768e26996661393abec72189db2b7b923b916e30a414178e959b059a4096",
+          "sha256": "7888aaa42779ce8dae395318f5358d2bfd4ba10a498ce4c0a1327c84b4812244",
+          "sha1": "a737c9d6caf0d722d8d124fb815da950f087ceb9",
+          "md5": "d5154efbea79eabcbad666eb32bf89a4"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "lyricist-core-kotlin-sources.jar",
+          "url": "lyricist-core-1.8.0-sources.jar",
+          "size": 1238,
+          "sha512": "0b1913900ae64dea0f16335ba5f548bc1f61390c849cbcdae98d9b2f29c2608aacd6629b71c756cc892d182b5a2397e779a94cd2eab4e842a4d4999622ad7a40",
+          "sha256": "0ca9071f050457c8e3c164c6824168fc2d8827121879786681e9450035a368d6",
+          "sha1": "669b0bfa3ab3252835330db6e08ad2dd86cddc99",
+          "md5": "4eea925cf54f3f737374850e23420112"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-android/1.8.0/lyricist-core-android-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-android",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-android/1.8.0/lyricist-core-android-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-android",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-android/1.8.0/lyricist-core-android-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-android",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-desktop/1.8.0/lyricist-core-desktop-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-desktop",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-desktop/1.8.0/lyricist-core-desktop-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-desktop",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-desktop/1.8.0/lyricist-core-desktop-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-desktop",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-iosarm64/1.8.0/lyricist-core-iosarm64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-iosarm64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-iosarm64/1.8.0/lyricist-core-iosarm64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-iosarm64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-iosarm64/1.8.0/lyricist-core-iosarm64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-iosarm64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-iossimulatorarm64/1.8.0/lyricist-core-iossimulatorarm64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-iossimulatorarm64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-iossimulatorarm64/1.8.0/lyricist-core-iossimulatorarm64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-iossimulatorarm64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-iossimulatorarm64/1.8.0/lyricist-core-iossimulatorarm64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-iossimulatorarm64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-iosx64/1.8.0/lyricist-core-iosx64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-iosx64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-iosx64/1.8.0/lyricist-core-iosx64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-iosx64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-iosx64/1.8.0/lyricist-core-iosx64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-iosx64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-js/1.8.0/lyricist-core-js-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-js",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-js/1.8.0/lyricist-core-js-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-js",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-js/1.8.0/lyricist-core-js-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-js",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-macosarm64/1.8.0/lyricist-core-macosarm64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-macosarm64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-macosarm64/1.8.0/lyricist-core-macosarm64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-macosarm64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-macosarm64/1.8.0/lyricist-core-macosarm64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-macosarm64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-macosx64/1.8.0/lyricist-core-macosx64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-macosx64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-macosx64/1.8.0/lyricist-core-macosx64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-macosx64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-macosx64/1.8.0/lyricist-core-macosx64-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-macosx64",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-wasm-js/1.8.0/lyricist-core-wasm-js-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-wasm-js",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-wasm-js/1.8.0/lyricist-core-wasm-js-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-wasm-js",
+        "version": "1.8.0"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../lyricist-core-wasm-js/1.8.0/lyricist-core-wasm-js-1.8.0.module",
+        "group": "cafe.adriel.lyricist",
+        "module": "lyricist-core-wasm-js",
+        "version": "1.8.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "compilerVersion": "2.4.20-0.1.0-08",
+  "scope": "HOST_COMPOSE_COMPILER_PLUGIN_ONLY",
+  "compilerTasks": [
+    "compileCommonMainKotlinMetadata",
+    "compileKotlinOhosX64",
+    "compileKotlinOhosArm64"
+  ],
+  "pins": {
+    "org.jetbrains.kotlin:kotlin-compose-compiler-plugin-embeddable": "2.4.20-0.1.0-08"
+  },
+  "artifacts": {
+    "org.jetbrains.kotlin:kotlin-compose-compiler-plugin-embeddable": {
+      "size": 870498,
+      "sha256": "4ffe7f38089fa4acdda5d67fa3a858b9fc2fe7ed1f2e58bedbf8d3447c15df39",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-develop/org/jetbrains/kotlin/kotlin-compose-compiler-plugin-embeddable/2.4.20-0.1.0-08/kotlin-compose-compiler-plugin-embeddable-2.4.20-0.1.0-08.jar"
+    }
+  },
+  "sourcePom": {
+    "path": "vendor/kotlin-compose-compiler-plugin-embeddable-2.4.20-0.1.0-08.pom",
+    "size": 1257,
+    "sha256": "d38ccafd8914713808fb9d66a5deb11b742dcd05d6420e8b0351ca146795540b",
+    "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-develop/org/jetbrains/kotlin/kotlin-compose-compiler-plugin-embeddable/2.4.20-0.1.0-08/kotlin-compose-compiler-plugin-embeddable-2.4.20-0.1.0-08.pom"
+  },
+  "directRuntimeDependencies": []
+}
