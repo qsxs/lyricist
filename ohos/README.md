@@ -29,4 +29,4 @@ Plan 不创建目录、不下载或构建，且报告 `recipeCommitCheck: NOT_RU
 
 [Pages 提交 `d4aeac15ad29`](https://github.com/qsxs/cpf-maven/commit/d4aeac15ad29f85497a733b133f12f2164322b44) 的 270 个文件、354,689 字节在修正匿名批次中与 staging 全部对齐，该批 270/270 首次请求成功；首轮将分隔符误计入响应 body，统计无效。 [consumer 40829692921/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40829692921/attempts/1) 使用工作流 `469293ce18774921a87627e756a617bff115b368` 和 Gradle 9.5.0，完成 `@LyricistStrings`、`rememberStrings`、语言 tag 和 `Lyricist.strings` 探针的 metadata、OHOS x64 与 arm64 真实编译；三个配置中 `lyricist` 通过 `api` 解析 `lyricist-core`，Compose runtime/ui 由 consumer 显式提供，不作为库的传递依赖。44 条公开 HTTP 记录与 staging 对齐，其中仅 38 条响应 body 随证据上传并可在本机复哈；四个 Native Klib 输入记录与 Pages/staging SHA-256 一致。两个 metadata trace 各有三个成员，但转换后的 metadata Klib 与 runner 物理输入未上传，无法本机独立重哈。
 
-Gradle 8 消费、link、runtime、设备和 Android/iOS 回归未验证，App 引用尚未切换。Wheel 的独立迁仓仍未开始，未获授权移除其 Lyricist 依赖。
+Gradle 8 消费、link、runtime、设备和 Android/iOS 回归未验证，App 引用尚未切换。Wheel 的 producer、Pages 及 Gradle 9.5 三目标公开消费编译已验；[consumer 40841841344/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40841841344/attempts/1) 完成业务探针编译，未获授权移除其 Lyricist 依赖。
